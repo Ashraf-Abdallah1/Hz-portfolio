@@ -1,15 +1,17 @@
+
+
 ul {
     list-style-type: none;
 
 }
 
-li {
+.navbar li {
     display: inline-block;
     padding-left: 20px;
     /*border: 1px solid black;*/
     /*background-color: black;*/
 }
-a{
+.navbar a{
     text-decoration: none;
 }
 .logo-img{
@@ -24,4 +26,15 @@ a{
     margin-left: 80px;
     position: absolute;
     font-family: serif;
+}
+.navbar a:hover {
+   color: #333333;
+}
+
+
+.navbar a.active {
+    color: #333333;
+}
+.navbar{
+    position: sticky;
 }
