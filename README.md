@@ -1,1 +1,3 @@
-nog niks
+/*
+dit is een basic portfolio voor de block een van HZ
+*/
