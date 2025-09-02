@@ -19,3 +19,9 @@ a{
     margin-left: -50px;
 
 }
+.nav-title{
+    margin-top: -65px;
+    margin-left: 80px;
+    position: absolute;
+    font-family: serif;
+}
