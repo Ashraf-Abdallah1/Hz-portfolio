@@ -1,49 +1,49 @@
-body{
-    text-align: center;
-    width: 50%;
-    margin:  0 auto;
-    font-family: Impact;
-    background-color: #C4A484;
-}
+/*body{*/
+/*    text-align: center;*/
+/*    width: 50%;*/
+/*    margin:  0 auto;*/
+/*    font-family: Impact;*/
+/*    background-color: #C4A484;*/
+/*}*/
 
-hr {
-    border-color: #654321 ;
-    color: #654321;
-    border-width: 3px;
-    border-style: solid;
-}
-.main-title{
-    padding: 10px;
-    font-family: 'Courier New';
-}
-.menu-section p{
-    padding: 10px; 
-    font-family: 'Franklin Gothic Medium';
-    display: inline-block;
-   
-}
-.drink-name{
-    left: 100px;
-    width: 45%;
-}
-.drink-price{
-    right: 100px;
-     width: 45%;
-}
-footer a {
-color: black;
-text-decoration: none;
+/*hr {*/
+/*    border-color: #654321 ;*/
+/*    color: #654321;*/
+/*    border-width: 3px;*/
+/*    border-style: solid;*/
+/*}*/
+/*.main-title{*/
+/*    padding: 10px;*/
+/*    font-family: 'Courier New';*/
+/*}*/
+/*.menu-section p{*/
+/*    padding: 10px; */
+/*    font-family: 'Franklin Gothic Medium';*/
+/*    display: inline-block;*/
+/*   */
+/*}*/
+/*.drink-name{*/
+/*    left: 100px;*/
+/*    width: 45%;*/
+/*}*/
+/*.drink-price{*/
+/*    right: 100px;*/
+/*     width: 45%;*/
+/*}*/
+/*footer a {*/
+/*color: black;*/
+/*text-decoration: none;*/
 
-}
-.footer-h2{
-    font-family: 'Courier New ';
-}
-.footer-span3{
-    font-size: 45px;
-}
-.footer-span2{
-    font-size: 30px;
-}
-.footer-span1{
-    font-size: 20px;
-}
+/*}*/
+/*.footer-h2{*/
+/*    font-family: 'Courier New ';*/
+/*}*/
+/*.footer-span3{*/
+/*    font-size: 45px;*/
+/*}*/
+/*.footer-span2{*/
+/*    font-size: 30px;*/
+/*}*/
+/*.footer-span1{*/
+/*    font-size: 20px;*/
+/*}*/
