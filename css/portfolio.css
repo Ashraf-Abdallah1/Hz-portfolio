@@ -5,10 +5,16 @@
 .experience-fieldset{
     border: solid 5px #a7bcb9;
     max-width: 30%;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .wam-denim-image{
     max-width: 30%;
     margin-left: 60%;
     margin-top: -30%;
 }
+/*p{*/
+/*    max-width: 30%;*/
+/*    margin-left: 60%;*/
+/*    margin-top: -30%;*/
+/*}*/
