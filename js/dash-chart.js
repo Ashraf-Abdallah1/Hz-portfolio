@@ -6,13 +6,19 @@ new Chart(ctx,{
         datasets: [
             {
             label:'Goed',
-            data: [12.5,22.5,33.5,60],
+            data: [12.5,22.5,22.5,60],
             borderColor: '#333333',
             fill: false,
             },
             {
+              label: 'NBSA',
+              data:[10,20,20,45],
+              borderColor: 'red',
+              fill: false,
+            },
+            {
                 label:'Mijn voortgang',
-                data: [8,15,33,60],
+                data: [],
                 borderColor: 'green',
                 fill: true,
             }

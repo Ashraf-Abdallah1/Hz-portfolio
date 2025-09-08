@@ -1,8 +1,8 @@
 
-.ict-table{
+table{
+    width:80%;
     margin-left : 5%;
     border-collapse: collapse;
-    max-width: 60%;
 }
 caption{
     margin: 10px;
@@ -11,14 +11,14 @@ caption{
 td, th  {
     border: 3px solid #a7bcb9;
     text-align: left;
-    padding: 8px;
+    padding: 2px;
 }
 tr:nth-child(even) {
     background-color: #a7bcb9;
 }
 #chart{
-    max-width: 30%;
+    max-width: 60%;
     max-height: 30%;
-    margin-left : 5%;
-
+    margin-top: 50px;
+    margin-left: 18%;
 }

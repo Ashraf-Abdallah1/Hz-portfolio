@@ -1,0 +1,14 @@
+.questions-section{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    align-items: flex-start;
+}
+summary{
+    max-width: 80%;
+    background-color: #a7bcb9;
+    border: #a7bcb9 solid 1px;
+}
+article{
+    max-width: 30%;
+}
