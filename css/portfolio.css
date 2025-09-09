@@ -1,18 +1,21 @@
-.profile-list{
+.profile-list {
     margin-top: 10px;
     padding-top: 10px;
 }
-.experience-fieldset{
+
+.experience-fieldset {
     border: solid 5px #a7bcb9;
     max-width: 30%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.wam-denim-image{
+
+.wam-denim-image {
     max-width: 30%;
     margin-left: 60%;
     margin-top: -30%;
 }
+
 /*p{*/
 /*    max-width: 30%;*/
 /*    margin-left: 60%;*/

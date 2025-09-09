@@ -1,14 +1,16 @@
-h2{
+h2 {
     text-align: center;
     margin: 3%;
 }
-img{
+
+img {
     display: block;
     margin-top: 10%;
     margin-left: 40%;
 }
-P{
-    margin-top: 3% ;
+
+P {
+    margin-top: 3%;
     white-space: normal;
     max-width: 45%;
 
