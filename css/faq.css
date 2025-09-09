@@ -1,14 +1,21 @@
-.questions-section{
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: center;*/
+.questions-section {
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
+    gap: 3rem;
+    border: #a7bcb9 5px solid;
+    /*max-width: 30%;*/
+
 }
-summary{
-    max-width: 80%;
-    background-color: #a7bcb9;
-    border: #a7bcb9 solid 1px;
+
+.questions-section-title {
+    align-items: center;
 }
-article{
-    max-width: 30%;
+
+summary {
+    cursor: pointer;
+}
+
+article {
+    max-width: 50%;
 }

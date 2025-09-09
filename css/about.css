@@ -1,13 +1,15 @@
-body{
+body {
     background-image: url("images/about-me-background-img.png");
 }
-.about-me-section{
+
+.about-me-section {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap:40px;
+    gap: 40px;
 }
-.social-media-nav{
+
+.social-media-nav {
     /*zorgt dat hij de helft van de pagina gebruikt*/
     flex: 1;
 }
@@ -23,22 +25,26 @@ body{
     border: solid 5px #a7bcb9;
     background-color: #a7bcb9;
 }
-a{
+
+a {
     text-decoration: none;
     display: block;
 }
+
 .social-media-nav a:hover {
     color: #333333;
 }
 
-.social-media-nav{
+.social-media-nav {
     position: sticky;
 }
-.social-media-dropdown{
+
+.social-media-dropdown {
     position: relative;
-    margin-top : 132px;
+    margin-top: 132px;
 }
-.social-media-dropdown-content{
+
+.social-media-dropdown-content {
     container: auto;
     position: absolute;
     display: none;
@@ -49,12 +55,14 @@ a{
     border-radius: 10px;
     white-space: normal;
 }
-.social-media-dropdown:hover .social-media-dropdown-content{
+
+.social-media-dropdown:hover .social-media-dropdown-content {
     display: block;
     cursor: pointer;
 
 }
-.about-me-gif{
+
+.about-me-gif {
     width: 60%;
     object-fit: contain;
     border: 5px solid #a7bcb9;;

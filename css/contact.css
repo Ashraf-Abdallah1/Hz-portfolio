@@ -6,34 +6,36 @@ form {
     border: #a7bcb9 5px solid;
     border-radius: 5%;
 }
-input{
+
+input {
     display: block;
     margin: 15px;
     width: 40%;
     border-radius: 5%;
 }
 
-label{
+label {
     margin-left: 5px;
     margin-top: 5px;
 }
 
-textarea{
+textarea {
     margin-top: 20px;
     margin-left: 15px;
     max-width: 80%;
     display: block;
     border-radius: 5%;
 }
-p{
+
+p {
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: large;
 }
 
-.contact-submit-button{
-    margin: 50px 0 10px 30% ;
+.contact-submit-button {
+    margin: 50px 0 10px 30%;
     width: 170px;
     height: 40px;
     line-height: 1;

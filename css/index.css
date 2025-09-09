@@ -1,15 +1,12 @@
-h2{
-    text-align: center;
-    margin: 3%;
+.index-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
 }
-img{
-    display: block;
-    margin-top: 10%;
-    margin-left: 40%;
-}
-P{
-    margin-top: 3% ;
-    white-space: normal;
-    max-width: 45%;
 
+P {
+    white-space: normal;
+    max-width: 40%;
+    border: #a7bcb9 5px solid;
 }

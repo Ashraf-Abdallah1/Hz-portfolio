@@ -1,22 +1,26 @@
 
-table{
-    width:80%;
-    margin-left : 5%;
+table {
+    width: 80%;
+    margin-left: 5%;
     border-collapse: collapse;
 }
-caption{
+
+caption {
     margin: 10px;
     font-size: large;
 }
-td, th  {
+
+td, th {
     border: 3px solid #a7bcb9;
     text-align: left;
     padding: 2px;
 }
+
 tr:nth-child(even) {
     background-color: #a7bcb9;
 }
-#chart{
+
+#chart {
     max-width: 60%;
     max-height: 30%;
     margin-top: 50px;

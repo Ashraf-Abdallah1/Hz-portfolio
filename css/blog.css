@@ -1,9 +1,16 @@
-article{
-    margin-top: 50px;
+.blogs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-p{
-    white-space: normal;
+
+summary {
+    cursor: pointer;
 }
+
+/*zelf service portal*/
+/*bij de HZ contact pagina*/
