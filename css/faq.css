@@ -2,10 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 3rem;
-    border: #a7bcb9 5px solid;
-    /*max-width: 30%;*/
-
+    gap: 2rem;
+    border: #a7bcb9 10px solid;
+    flex-wrap: wrap;
 }
 
 .questions-section-title {
@@ -14,8 +13,12 @@
 
 summary {
     cursor: pointer;
+    border: 5px solid #a7bcb9;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 article {
     max-width: 50%;
 }
+/*// gekoopeld nog aan de blog.css*/

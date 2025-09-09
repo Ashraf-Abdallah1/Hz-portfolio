@@ -10,7 +10,8 @@ h1 {
 
 summary {
     cursor: pointer;
+    /*background: #a7bcb9;*/
+    border: 10px solid #a7bcb9;
+    max-width: 30%;
 }
 
-/*zelf service portal*/
-/*bij de HZ contact pagina*/

@@ -1,23 +1,23 @@
-.profile-list {
-    margin-top: 10px;
-    padding-top: 10px;
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    margin-top: 10%;
 }
 
-.experience-fieldset {
+.experience-fieldset, .info-fieldset {
     border: solid 5px #a7bcb9;
-    max-width: 30%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+}
+
+.info-div, .experience-div {
+    display: flex;
+    flex-direction: column;
 }
 
 .wam-denim-image {
     max-width: 30%;
-    margin-left: 60%;
-    margin-top: -30%;
-}
+    align-self: flex-end;
 
-/*p{*/
-/*    max-width: 30%;*/
-/*    margin-left: 60%;*/
-/*    margin-top: -30%;*/
-/*}*/
+}
