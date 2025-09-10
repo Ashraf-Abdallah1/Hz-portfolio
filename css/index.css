@@ -3,10 +3,47 @@
     flex-direction: column;
     gap: 2rem;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 P {
     white-space: normal;
     max-width: 40%;
     border: #a7bcb9 5px solid;
+}
+
+.index-motivation {
+    border: 5px solid #a7bcb9;
+    border-radius: 12px;
+    padding: 2.5rem;
+    max-width: 800px;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+
+.index-motivation a {
+    color: #6b8e87;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+}
+
+.index-motivation a:hover {
+    color: #5a7b74;
+    border-bottom-color: #a7bcb9;
+}
+
+
+.index-container img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.index-container img:hover {
+    transform: translateY(-4px);
 }

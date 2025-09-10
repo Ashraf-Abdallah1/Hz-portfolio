@@ -1,24 +1,108 @@
-.questions-section {
+section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 2rem;
     border: #a7bcb9 10px solid;
     flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
-.questions-section-title {
-    align-items: center;
+ h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+ h1::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 120px;
+    height: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(90deg, #a7bcb9 0%, #8fa8a5 100%);
+    border-radius: 2px;
+}
+
+article {
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-2px)
+}
+
+details {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    border: 2px solid #a7bcb9;
+}
+
+details:hover {
+    border-color: #8fa8a5;
 }
 
 summary {
     cursor: pointer;
-    border: 5px solid #a7bcb9;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    padding: 1.5rem 2rem;
+    background: linear-gradient(135deg, #a7bcb9 0%, #b5c9c6 100%);
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+    position: relative;
+    transition: all 0.3s ease;
+    list-style: none;
+
 }
 
-article {
-    max-width: 50%;
+summary::after {
+    content: "+";
+    position: absolute;
+    right: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
 }
-/*// gekoopeld nog aan de blog.css*/
+
+details[open] summary::after {
+    content: "−";
+    transform: translateY(-50%) rotate(180deg);
+}
+
+summary:hover {
+    background: linear-gradient(135deg, #8fa8a5 0%, #a7bcb9 100%);
+    transform: translateY(-1px);
+}
+
+details p {
+    padding: 2rem;
+    margin: 0;
+    line-height: 1.6;
+    background: #fafafa;
+    color: #444;
+    border-top: 1px solid #e0e0e0;
+}
+
+details p a {
+    color: #a7bcb9;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+}
+
+details p a:hover {
+    color: #8fa8a5;
+    border-bottom-color: #a7bcb9;
+}
