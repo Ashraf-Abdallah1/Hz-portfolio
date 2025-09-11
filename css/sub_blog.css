@@ -1,8 +1,12 @@
-.container section {
+.container {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
+    border: #a7bcb9 10px solid;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto 0 auto;
+    padding: 2rem;
 }
 
 .navbar {
@@ -12,9 +16,17 @@
     gap: 3rem;
 }
 
+.swot-section {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: block;
+    overflow-x: auto;
+}
+
 p {
     white-space: normal;
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .back-button {
@@ -28,4 +40,11 @@ p {
     background: #a7bcb9;
     border-radius: 40px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+    .swot-title::after {
+        content: "  ⭢";
+    }
 }
