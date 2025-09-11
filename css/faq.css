@@ -73,15 +73,3 @@ details p {
     color: #444;
     border-top: 1px solid #e0e0e0;
 }
-
-details p a {
-    color: #a7bcb9;
-    text-decoration: none;
-    font-weight: 600;
-    border-bottom: 2px solid transparent;
-}
-
-details p a:hover {
-    color: #8fa8a5;
-    border-bottom-color: #a7bcb9;
-}
