@@ -111,7 +111,8 @@
     }
 
     .nav-title {
-        font-size: 1rem;
+        max-width:60%;
+        font-size: large;
         text-align: left;
     }
 
