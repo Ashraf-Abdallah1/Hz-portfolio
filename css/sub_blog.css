@@ -42,6 +42,26 @@ p {
     cursor: pointer;
 }
 
+.section-head{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.section-head::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 120px;
+    height: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(90deg, #a7bcb9 0%, #8fa8a5 100%);
+    border-radius: 2px;
+}
+
 @media screen and (max-width: 768px) {
 
     .swot-title::after {
