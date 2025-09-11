@@ -9,27 +9,6 @@ section {
     padding: 2rem;
 }
 
- h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #2c3e50;
-    margin-bottom: 2rem;
-    position: relative;
-}
-
- h1::after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    width: 120px;
-    height: 3px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: linear-gradient(90deg, #a7bcb9 0%, #8fa8a5 100%);
-    border-radius: 2px;
-}
-
 article {
     margin-bottom: 1.5rem;
     transition: transform 0.3s ease;
