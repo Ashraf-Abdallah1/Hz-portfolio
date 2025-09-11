@@ -14,6 +14,7 @@ P {
 }
 
 .index-motivation {
+    background: linear-gradient(135deg,white 0% , #6b8e87 100%);
     border: 5px solid #a7bcb9;
     border-radius: 12px;
     padding: 2.5rem;
