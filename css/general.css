@@ -24,13 +24,13 @@ body {
 }
 
 .click-hier  {
-    color: #a7bcb9;
+    color: #71908d;
     text-decoration: none;
     font-weight: 600;
     border-bottom: 2px solid transparent;
 }
 
 .click-hier:hover {
-    color: #8fa8a5;
+    color: #667c76;
     border-bottom-color: #a7bcb9;
 }

@@ -9,7 +9,7 @@
 
 
 table {
-    grid-area: 1/1/4/11 ;
+    grid-area: 1/2/4/7 ;
     border-collapse: collapse;
 }
 
@@ -30,7 +30,10 @@ tr:nth-child(even) {
 }
 
 #chart {
-    grid-area: 4/1/9/11;
+    margin-top: 70px;
+    grid-area: 4/1/9/8;
+    max-height: 300px;
+    width: 100px;
 }
 
 
@@ -41,4 +44,15 @@ tr:nth-child(even) {
         grid-template-columns: repeat(12,1fr);
         grid-gap:1rem;
     }
+
+
+    table {
+        grid-area: 1/1/4/11 ;
+        border-collapse: collapse;
+    }
+
+    #chart {
+        grid-area: 4/1/9/11;
+    }
+
 }
